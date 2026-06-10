@@ -11,9 +11,4 @@
 javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -d bin src/chatclient/*.java src/chatclient/scenes/*.java
 #### Run the projecct
 java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -cp bin chatclient.App
-### License
-This project was developed as part of CSC 413 coursework at San Francisco State University.
-### Acknowledgments
-* San Francisco State University Computer Science Department
-* CSC 413 - Software Development Course
-* JavaFX community and documentation
+
